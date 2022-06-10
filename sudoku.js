@@ -22,7 +22,9 @@ function isSolved(board) {
 // form `solve` returns.
 
 function prettyBoard() {
-  return stringToMass().map((el) => el.join(' ')).join('\n');
+  return stringToMass().map(
+    (el) => el.join(' ')
+  ).join('\n');
 }
 
 // Exports all the functions to use them in another file.
